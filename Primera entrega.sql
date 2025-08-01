@@ -1,3 +1,7 @@
+/*
+CREACION DE UNA BASE DE DATOS
+*/
+
 CREATE DATABASE agricultura;
 
 USE agricultura;
