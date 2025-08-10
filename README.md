@@ -1,13 +1,21 @@
-# Descripción de la temática de la base de datos
+# Proyecto Base de Datos – Agricultura
 
-La base de datos propuesta está orientada a la **gestión de actividades agrícolas**, permitiendo registrar, organizar y consultar información clave sobre el ciclo productivo de distintos cultivos.
+## Descripción de la temática
+El proyecto consiste en el diseño y desarrollo de una base de datos relacional orientada a la gestión de información en el ámbito agrícola. El objetivo es almacenar, organizar y relacionar datos clave vinculados a la producción agrícola, desde la planificación y registro de siembras, hasta la aplicación de insumos, condiciones climáticas y resultados de rendimiento.
 
-El sistema almacena datos relacionados con:
-- **Lotes** de terreno disponibles para la producción.
-- **Cultivos** sembrados en cada lote y sus características.
-- **Siembras** realizadas, incluyendo fechas y responsables.
-- **Aplicaciones de insumos** (fertilizantes, pesticidas, etc.) asociadas a cada siembra.
-- **Condiciones climáticas** que afectan el desarrollo de los cultivos.
-- **Rendimientos obtenidos** en cada cosecha, con observaciones sobre factores que incidieron en la producción.
+La base de datos contempla información de:
+- **Lotes**: identificación y características de cada parcela de cultivo.
+- **Cultivos**: tipo de cultivo, variedad y ciclo productivo.
+- **Trabajadores**: personal involucrado en las distintas tareas agrícolas.
+- **Insumos**: productos utilizados (fertilizantes, pesticidas, semillas, etc.).
+- **Siembras**: registro de fechas, cultivos y lotes sembrados.
+- **Aplicaciones de insumos**: uso de insumos sobre determinadas siembras, indicando fecha y cantidad.
+- **Clima**: condiciones meteorológicas registradas en fechas específicas y asociadas a lotes.
+- **Rendimientos**: producción obtenida al final del ciclo productivo de cada siembra.
 
-El objetivo general es facilitar el seguimiento integral de la producción agrícola, brindando una herramienta que sirva para la toma de decisiones, análisis de rendimiento y optimización de recursos.
+Esta estructura permite gestionar información de forma centralizada y facilita el análisis para la toma de decisiones, optimizando recursos, mejorando la planificación y evaluando los resultados productivos.
+
+## Diagrama Entidad–Relación
+A continuación se presenta el diagrama E–R del modelo de base de datos, que representa las entidades, sus atributos y relaciones.
+
+![Diagrama E–R](diagrama_entidad_relacion.png)
